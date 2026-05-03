@@ -2,7 +2,7 @@ using LibraryAPI.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace LibraryAPI.Infrastructure.Data;
-
+// Hanterar databaskopplingen via Entity Framework Core
 public class AppDbContext : DbContext
 {
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
