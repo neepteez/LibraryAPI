@@ -7,7 +7,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryAPI.API.Controllers;
-
+// Hanterar alla CRUD-operationer för böcker via MediatR
 [ApiController]
 [Route("api/[controller]")]
 public class BooksController : ControllerBase
