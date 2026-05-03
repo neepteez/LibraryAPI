@@ -5,7 +5,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LibraryAPI.API.Controllers;
-
+// Hanterar operationer för författare via MediatR
 [ApiController]
 [Route("api/[controller]")]
 public class AuthorsController : ControllerBase
