@@ -100,8 +100,3 @@ Controllers använder aldrig repositories direkt — alltid via `IMediator`.
 `IBookRepository` och `IAuthorRepository` definieras i **Application**.
 Implementationerna (`BookRepository`, `AuthorRepository`) bor i **Infrastructure** och injiceras via DI.
 
-## GitHub Flow
-
-- `main` är branch-skyddad — inga direkta pushar tillåtna
-- Arbeta på feature-branches, öppna Pull Requests mot main
-- Minst 5 commits med meningsfulla meddelanden
